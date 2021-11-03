@@ -111,7 +111,7 @@ This feature allows you to push segments located in your Adobe Experience Platfo
    >
    >Identities are used to look for matches in Marketo. If a match is found, the person is added to the static List. If a match is not found, those people are dropped (i.e., not created in Marketo).
 
-1. _In Marketo_, create a static list, or find and select one you've already created. Copy the mapping ID from the end of the URL.
+1. _In Marketo_, create a static list, or find and select one you've already created. Copy the mapping ID from the end of the URL. You'll want to copy the values between the last forward slash and the last letter in the string. For example - If the values at the the end of your static list URL are 'ST73Z1', then the correct mapping ID for would be 'ST73'.
 
    ![](assets/push-an-adobe-experience-platform-segment-to-a-marketo-static-list-19.png)
 
